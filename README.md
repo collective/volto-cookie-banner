@@ -1,6 +1,10 @@
 # volto-cookie-banner
 
+`WORK IN PROGRESS`
+
 Volto cookie banner integration addon.
+
+To be used with: [collective.volto.cookieconsent](https://github.com/collective/collective.volto.cookieconsent)
 
 To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
 
@@ -26,7 +30,7 @@ Create a `mrs.developer.json` file:
 ```json
 {
   "volto-cookie-banner": {
-    "path": "../volto-cookie-banner"
+    "url": "git@github.com:collective/volto-cookie-banner.git"
   }
 }
 ```
@@ -79,6 +83,12 @@ Edit `.eslintrc`:
     }
   }
 }
+```
+
+Then, run `mrs-developer`:
+
+```bash
+yarn develop
 ```
 
 ## Usage
