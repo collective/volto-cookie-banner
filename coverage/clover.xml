@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1585298841937" clover="3.2.0">
+  <project timestamp="1585298841937" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="5" coveredelements="5" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="CookieBanner.js" path="/Users/nicola/workspace/volto-cookie-banner/src/CookieBanner.js">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
