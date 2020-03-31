@@ -1,7 +1,5 @@
 # volto-cookie-banner
 
-`WORK IN PROGRESS`
-
 Volto cookie banner integration addon.
 
 To be used with: [collective.volto.cookieconsent](https://github.com/collective/collective.volto.cookieconsent)
