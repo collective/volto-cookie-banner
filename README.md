@@ -13,7 +13,7 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 In your Volto project:
 
 ```bash
-yarn add mrs-developer
+yarn add mrs-developer react-cookie-consent
 ```
 
 and in `package.json`:
@@ -91,15 +91,6 @@ Then, run `mrs-developer`:
 yarn develop
 ```
 
-In `src/addons/volto-cookie-banner` run:
-
-```bash
-yarn
-```
-
-to install dependencies.
-
-
 ## Usage
 
 In your Volto project, add the reducer:
@@ -138,4 +129,3 @@ import { CookieBanner } from 'volto-cookie-banner'
 
 const YourAppComponent = () => <CookieBanner />
 ```
-
