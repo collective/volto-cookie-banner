@@ -85,6 +85,13 @@ Edit `.eslintrc`:
 }
 ```
 
+Add `src/addons` in `.gitignore`:
+
+```
+# .gitignore
+src/addons
+```
+
 Then, run `mrs-developer`:
 
 ```bash
