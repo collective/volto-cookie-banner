@@ -91,6 +91,15 @@ Then, run `mrs-developer`:
 yarn develop
 ```
 
+In `src/addons/volto-cookie-banner` run:
+
+```bash
+yarn
+```
+
+to install dependencies.
+
+
 ## Usage
 
 In your Volto project, add the reducer:
@@ -130,4 +139,3 @@ import { CookieBanner } from 'volto-cookie-banner'
 const YourAppComponent = () => <CookieBanner />
 ```
 
-I'd suggest to customize [Html.jsx](https://github.com/plone/volto/blob/master/src/helpers/Html/Html.jsx) from Volto and add it to the bottom of the body.
