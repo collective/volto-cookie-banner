@@ -104,7 +104,7 @@ In your Volto project, add the reducer:
  */
 
 import defaultReducers from '@plone/volto/reducers'
-import { cookieBannerReducer } from 'volto-cookie-banner/reducers'
+import { cookieConsentReducer } from 'volto-cookie-banner'
 
 /**
  * Root reducer.
@@ -116,7 +116,7 @@ import { cookieBannerReducer } from 'volto-cookie-banner/reducers'
 const reducers = {
   ...defaultReducers,
   // Add your reducers here
-  cookieBannerText: cookieBannerReducer,
+  cookieConsentInfos: cookieConsentReducer,
 }
 
 export default reducers

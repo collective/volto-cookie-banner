@@ -2,19 +2,19 @@
  * Cookie banner text actions.
  * @module actions/getCookieBannerText
  */
-export const GET_COOKIE_BANNER_TEXT = 'GET_COOKIE_BANNER_TEXT'
+export const GET_COOKIE_CONSENT_INFOS = 'GET_COOKIE_CONSENT_INFOS'
 
 /**
- * Get social infos.
- * @function getSocialInfos
- * @returns {Object} Get social infos action.
+ * Get cookie consent infos.
+ * @function getCookieConsentInfos
+ * @returns {Object} Get cookie consent infos action.
  */
-export function getCookieBannerText() {
+export function getCookieConsentInfos() {
   return {
-    type: GET_COOKIE_BANNER_TEXT,
+    type: GET_COOKIE_CONSENT_INFOS,
     request: {
       op: 'get',
-      path: `/@cookie-banner`,
+      path: `/@cookieconsent-infos`,
     },
   }
 }

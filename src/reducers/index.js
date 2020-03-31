@@ -3,7 +3,7 @@
  * @module reducers/cookieBannerReducer
  */
 
-import { GET_COOKIE_BANNER_TEXT } from '../actions'
+import { GET_COOKIE_CONSENT_INFOS } from '../actions'
 
 const initialState = {
   error: null,
@@ -12,20 +12,20 @@ const initialState = {
   loadingResults: false,
 }
 
-export const cookieBannerReducer = (state = initialState, action = {}) => {
+export const cookieConsentReducer = (state = initialState, action = {}) => {
   switch (action.type) {
-    case `${GET_COOKIE_BANNER_TEXT}_PENDING`:
+    case `${GET_COOKIE_CONSENT_INFOS}_PENDING`:
       return {
         ...state,
         loadingResults: true,
       }
-    case `${GET_COOKIE_BANNER_TEXT}_SUCCESS`:
+    case `${GET_COOKIE_CONSENT_INFOS}_SUCCESS`:
       return {
         ...state,
         result: action.result,
         loadingResults: false,
       }
-    case `${GET_COOKIE_BANNER_TEXT}_FAIL`:
+    case `${GET_COOKIE_CONSENT_INFOS}_FAIL`:
       return {
         ...state,
         error: action.error,
