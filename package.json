@@ -32,14 +32,6 @@
         "webpack": "^4.42.1",
         "webpack-cli": "^3.3.11"
     },
-    "peerDependencies": {
-        "prop-types": "^15.7.2",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-intl": "^4.2.2",
-        "react-redux": "^7.2.0",
-        "redux": "^4.0.5"
-    },
     "dependencies": {
         "react-cookie-consent": "^3.0.0"
     },
