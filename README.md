@@ -11,14 +11,17 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 In your Volto project:
 
 ```bash
-yarn add mrs-developer react-cookie-consent
+yarn add mrs-developer volto-cookie-banner
 ```
 
 and in `package.json`:
 
 ```json
   "scripts": {
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
     "develop": "missdev --config=jsconfig.json --output=addons",
+    "preinstall": "if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi",
+    "postinstall": "rm -rf ./node_modules/volto-* && yarn omelette",
     ...
   }
 ```
@@ -57,6 +60,11 @@ Fix tests, in `package.json`:
       "volto-cookie-banner/(.*)$": "<rootDir>/src/addons/volto-cookie-banner/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
     },
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)",
+      "!**/src/addons/volto/**/*"
+    ],
     ...
 ```
 
