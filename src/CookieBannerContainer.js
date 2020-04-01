@@ -23,6 +23,7 @@ const CookieBannerContainer = () => {
   return cookieConsentInfos?.cookie_consent_configuration?.[intl.locale]?.length > 0 ? (
     <CookieBanner
       text={cookieConsentInfos.cookie_consent_configuration[intl.locale]}
+      acceptOnScroll={cookieConsentInfos?.accept_on_scroll ?? false}
       buttonText={intl.formatMessage(messages.cookieBannerButton)}
     />
   ) : null
