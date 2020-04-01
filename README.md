@@ -6,7 +6,7 @@ To be used with: [collective.volto.cookieconsent](https://github.com/collective/
 
 To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
 
-## Install mrs-developer
+## Install mrs-developer and configure your Volto project
 
 In your Volto project:
 
