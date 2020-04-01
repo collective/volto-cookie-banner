@@ -11,7 +11,7 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 In your Volto project:
 
 ```bash
-yarn add mrs-developer volto-cookie-banner
+yarn add mrs-developer collective/volto-cookie-banner
 ```
 
 and in `package.json`:
