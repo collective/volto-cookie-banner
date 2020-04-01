@@ -98,10 +98,11 @@ Add `src/addons` in `.gitignore`:
 src/addons
 ```
 
-Then, run `mrs-developer`:
+Then, run `mrs-developer` and install dependencies:
 
 ```bash
 yarn develop
+yarn
 ```
 
 ## Usage
