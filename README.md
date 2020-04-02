@@ -143,3 +143,20 @@ import { CookieBanner } from 'volto-cookie-banner'
 
 const YourAppComponent = () => <CookieBanner />
 ```
+
+### Add a widget for the controlpanel
+
+Without any other customization, in the controlpanel you'll find a text area which will accept a json object.
+This is the job for [volto-multilingual-widget](https://github.com/collective/volto-multilingual-widget).
+
+```js
+import MultilingualWidget from 'volto-multilingual-widget'
+
+export const widgets = {
+  ...defaultWidgets,
+  id: {
+    ...defaultWidgets.id,
+    cookie_consent_configuration: MultilingualWidget(),
+  },
+}
+```
