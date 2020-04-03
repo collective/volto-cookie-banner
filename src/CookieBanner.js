@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import CookieConsent from 'react-cookie-consent'
+import './volto-cookie-banner.css'
 
 const CookieBanner = ({ text, buttonText, acceptOnScroll = false }) => (
   <CookieConsent buttonText={buttonText ?? 'OK'} acceptOnScroll={acceptOnScroll}>

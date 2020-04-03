@@ -160,3 +160,7 @@ export const widgets = {
   },
 }
 ```
+
+### Styling
+
+If you want to change or adapt styles, you should start adapting [volto-cookie-banner.css](src/volto-cookie-banner.css) and [react-cookie-consent styling docs](https://github.com/Mastermindzh/react-cookie-consent#styling-it).

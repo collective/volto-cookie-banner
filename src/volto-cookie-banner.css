@@ -1,0 +1,17 @@
+.cookieConsent,
+.cookieConsent h1,
+.cookieConsent h2,
+.cookieConsent h3,
+.cookieConsent h4,
+.cookieConsent h5,
+.cookieConsent h6,
+.cookieConsent p,
+.cookieConsent a {
+    color: #fff;
+}
+
+.cookieConsent a:hover,
+.cookieConsent a:focus {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
