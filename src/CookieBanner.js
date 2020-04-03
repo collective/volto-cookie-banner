@@ -4,7 +4,7 @@ import CookieConsent from 'react-cookie-consent'
 
 const CookieBanner = ({ text, buttonText, acceptOnScroll = false }) => (
   <CookieConsent buttonText={buttonText ?? 'OK'} acceptOnScroll={acceptOnScroll}>
-    {text}
+    <div dangerouslySetInnerHTML={{ __html: text }} />
   </CookieConsent>
 )
 
