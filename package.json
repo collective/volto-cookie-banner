@@ -1,6 +1,6 @@
 {
     "name": "volto-cookie-banner",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Volto cookie banner integration",
     "main": "src/index.js",
     "author": "Nicola Zambello",
