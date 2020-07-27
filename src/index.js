@@ -1,7 +1,7 @@
-import { cookieConsentReducer } from 'volto-cookie-banner/reducers'
+import { cookieConsentReducer } from './reducers'
 
-export { default as CookieBanner } from 'volto-cookie-banner/CookieBannerContainer'
-export { GET_COOKIE_CONSENT_INFOS, getCookieConsentInfos } from 'volto-cookie-banner/actions'
+export { default as CookieBanner } from './CookieBannerContainer'
+export { GET_COOKIE_CONSENT_INFOS, getCookieConsentInfos } from './actions'
 
 export default config => {
   config.addonReducers = {
