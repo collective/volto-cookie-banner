@@ -1,17 +1,17 @@
 {
-    "name": "volto-cookie-banner",
-    "version": "1.0.0",
-    "description": "Volto cookie banner integration",
-    "main": "src/index.js",
-    "author": "Nicola Zambello",
-    "license": "MIT",
-    "devDependencies": {
-      "release-it": "*"
-    },
-    "dependencies": {
-      "react-cookie-consent": "^3.0.0"
-    },
-    "scripts": {
-      "release": "release-it"
-    }
+  "name": "volto-cookie-banner",
+  "version": "1.0.1",
+  "description": "Volto cookie banner integration",
+  "main": "src/index.js",
+  "author": "Nicola Zambello",
+  "license": "MIT",
+  "devDependencies": {
+    "release-it": "*"
+  },
+  "dependencies": {
+    "react-cookie-consent": "^3.0.0"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
 }
