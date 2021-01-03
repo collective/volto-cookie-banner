@@ -12,9 +12,24 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 Wherever you want to add the component, import and use it like this:
 
 ```jsx
-import { CookieBanner } from 'volto-cookie-banner'
+import CookieBanner from 'volto-cookie-banner/CookieBannerContainer'
 
 const YourAppComponent = () => <CookieBanner />
+```
+
+A suggested way is to use `appExtras` from settings object:
+
+```jsx
+export const settings = {
+  ...defaultSettings,
+  appExtras: [
+    ...defaultSettings.appExtras,
+    {
+      match: '',
+      component: CookieBanner,
+    },
+  ],
+};
 ```
 
 ### Add a widget for the controlpanel
