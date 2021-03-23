@@ -8,6 +8,9 @@
     "releaseName": "${version}",
     "releaseNotes": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
   },
+  "npm": {
+    "publish": false
+  },
   "hooks": {
     "after:bump": "npx auto-changelog --commit-limit false -p"
   }
