@@ -8,6 +8,8 @@ To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/custom
 
 ## Usage
 
+> If you're using Volto < 12, then use [v1.0.2](https://github.com/collective/volto-cookie-banner/tree/v1.0.2)
+
 Wherever you want to add the component, import and use it like this:
 
 ```jsx
