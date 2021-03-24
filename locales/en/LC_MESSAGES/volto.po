@@ -11,6 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
- #: CookieBannerContainer
+#: CookieBannerContainer
 msgid "cookie_banner_button"
 msgstr "Close"
