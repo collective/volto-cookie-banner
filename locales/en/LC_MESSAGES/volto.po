@@ -13,4 +13,4 @@ msgstr ""
 
  #: CookieBannerContainer
 msgid "cookie_banner_button"
-msgstr ""
+msgstr "Close"
