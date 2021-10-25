@@ -1,21 +1,22 @@
 {
-  "name": "volto-cookie-banner",
-  "version": "2.0.0",
-  "description": "Volto cookie banner integration",
-  "main": "src/index.js",
-  "author": "Nicola Zambello",
-  "license": "MIT",
-  "devDependencies": {
-    "release-it": "*"
-  },
-  "dependencies": {
-    "react-cookie-consent": "^3.0.0"
-  },
-  "peerDependencies": {
-    "@plone/volto": ">=12.0.0"
-  },
-  "scripts": {
-    "i18n": "NODE_ENV=production node src/i18n.js",
-    "release": "release-it"
-  }
+    "name": "volto-cookie-banner",
+    "version": "2.0.0",
+    "description": "Volto cookie banner integration",
+    "main": "src/index.js",
+    "author": "Nicola Zambello",
+    "license": "MIT",
+    "devDependencies": {
+        "release-it": "*"
+    },
+    "dependencies": {
+        "@plone/scripts": "^1.0.3",
+        "react-cookie-consent": "^3.0.0"
+    },
+    "peerDependencies": {
+        "@plone/volto": ">=14.0.0"
+    },
+    "scripts": {
+        "i18n": "rm -rf build/messages && NODE_ENV=production i18n -a",
+        "release": "release-it"
+    }
 }

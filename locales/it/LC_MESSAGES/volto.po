@@ -12,5 +12,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: CookieBannerContainer
+# defaultMessage: Close
 msgid "cookie_banner_button"
 msgstr "Chiudi"
