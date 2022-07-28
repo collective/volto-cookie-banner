@@ -39,7 +39,7 @@ Without any other customization, in the controlpanel you'll find a text area whi
 This is the job for [volto-multilingual-widget](https://github.com/collective/volto-multilingual-widget).
 
 ```js
-import MultilingualWidget from 'volto-multilingual-widget';
+import { MultilingualWidget } from 'volto-multilingual-widget';
 
 export const widgets = {
   ...defaultWidgets,
